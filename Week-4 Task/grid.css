@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(20, 8, 31);
+  display: grid;
+  height: 100vh;
+}
+
+main {
+  display: grid;
+  grid-template-areas:
+    "a a b"
+    "c d d"
+    "c e e";
+  width: 50%;
+  margin: auto;
+}
+
+main div {
+  padding: 4em;
+  margin: 10px;
+}
+
+.item-a {
+  background-color: orangered;
+  grid-area: a;
+}
+
+.item-b {
+  background-color: orange;
+  grid-area: b;
+}
+
+.item-c {
+  background-color: rgb(32, 151, 32);
+  grid-area: c;
+}
+
+.item-d {
+  background-color: rgb(5, 123, 234);
+  grid-area: d;
+}
+
+.item-e {
+  background-color: rgb(5, 123, 234);
+  grid-area: e;
+}

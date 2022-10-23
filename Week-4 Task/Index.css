@@ -1,0 +1,82 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  display: flex;
+  min-height: 100vh;
+}
+
+p {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+
+h3 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  margin: auto;
+}
+
+.cont1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 20px;
+  width: 33.3%;
+}
+
+.cont2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 20px;
+  width: 33.3%;
+}
+
+.cont3 {
+  background-color: hsl(179, 100%, 13%);
+  padding: 20px;
+  width: 33.3%;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: hsl(0, 0%, 95%);
+}
+
+.btn1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn1:hover {
+  color: white;
+  background-color: hsl(31, 77%, 52%);
+  cursor: pointer;
+}
+
+.btn2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn2:hover {
+  color: white;
+  background-color: hsl(184, 100%, 22%);
+  cursor: pointer;
+}
+
+.btn3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn3:hover {
+  color: white;
+  background-color: hsl(179, 100%, 13%);
+  cursor: pointer;
+}

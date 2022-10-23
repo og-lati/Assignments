@@ -1,0 +1,29 @@
+body{
+    margin: 20px;
+    border-top: 5px solid #696fff;
+    border-bottom: 5px solid #696fff;
+    border-radius: 10px;
+    padding: 20px 0px 20px 0px;
+}
+
+form{
+    display: grid;
+    place-content: center;
+    width: 100%;
+}
+
+legend{
+    text-align: center;
+}
+
+input, select{
+    margin:5px 0px 5px 30px;
+}
+
+#submit{
+    background-color: #696fff;
+    border-radius: 20px;
+    border-color: white;
+    height: 40px;
+    width: 150px;
+}

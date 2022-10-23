@@ -1,0 +1,27 @@
+*{
+    padding:none ;
+}
+body{
+    background-color: #696cff;
+    color:white;
+    text-align: center;
+}
+
+#button-1{
+    background-color: #696cff;
+    color:white;
+    border-radius: 20px;
+    width:150px;
+    border-color: white;
+    padding: 0;
+}
+
+#button-1:hover{
+    background-color: rgb(120, 106, 106);
+}
+
+.container{
+    display:grid;
+    place-content: center;
+}
+

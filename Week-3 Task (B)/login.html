@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="success-page.html">
+        <legend><h1>Login</h1></legend>
+        <label for="email">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        /><br />
+        <hr />
+        <label for="password">Password</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Input your Password"
+          required
+        />
+        <br />
+        <hr />
+        <section>
+          <div class="space">
+            <input type="checkbox" id="checkbox" name="checkbox" />
+            <label for="checkbox">Remember Me</label>
+          </div>
+          <div class="space">
+            <a href="#">Forgot Password?</a>
+          </div>
+        </section>
+        <button type="submit" id="submit">Login</button>
+      </form>
+    </div>
+  </body>
+</html>
